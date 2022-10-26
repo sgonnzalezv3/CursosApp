@@ -15,14 +15,11 @@ namespace Persistencia
         public CursosContext(DbContextOptions options) : base(options)
         {
         }
-
         /*Definir cuando una entidad tiene multiples llaves primarias*/
         /*
         protected override void OnModelCreating(ModelBuilder modelBuilder){
             //Crear el archivo de migracion
             base.OnModelCreating(modelBuilder);
-            
-            
             modelBuilder.Entity<CursoInstructor>().HasKey(ci => new {ci.InstructorId, ci.CursoId});
         }
         */
@@ -30,9 +27,6 @@ namespace Persistencia
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            
-
         }
         */
         protected override void OnModelCreating(ModelBuilder modelBuilder)

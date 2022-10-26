@@ -6,11 +6,6 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
-
-
-
-
     //creando una clase para implementar el mediador para no tener que hacerlo cada vez que se cree un controller
     public class MiControllerBase : ControllerBase
     {

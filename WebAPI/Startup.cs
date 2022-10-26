@@ -33,7 +33,7 @@ using Persistencia.DapperConexion.Paginacion;
 using Persistencia.Paginacion;
 using Seguridad;
 using WebAPI.Middleware;
-//"DefaultConnection": "Server=tcp:coursesserver.database.windows.net,1433;Initial Catalog=CoursesDB;Persist Security Info=False;User ID=SantiagoGonzalez;Password=Gokussj9000!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+//"DefaultConnection": "Server=tcp:coursesserver.database.windows.net,1433;Initial Catalog=CoursesDB;Persist Security Info=False;User ID=SantiagoGonzalez;Password=*******;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     //"DefaultConnection": "Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=EscuelaGestion2; Integrated Security=True"
 
 
